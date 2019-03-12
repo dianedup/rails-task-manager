@@ -19,3 +19,6 @@ Rails.application.routes.draw do
   #DELETE
   delete 'tasks/:id', to: 'tasks#destroy'
 end
+
+#### ALL THE ROUTES CAN BE SET WITH
+# resources :tasks
