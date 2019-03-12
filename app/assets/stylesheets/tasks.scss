@@ -1,0 +1,20 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.task {
+  background-color: white;
+  margin: 15px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.completion {
+  flex: 0 0 35px;
+}
+
+.task-data {
+  flex: 1 1 auto;
+}

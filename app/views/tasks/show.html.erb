@@ -1,0 +1,13 @@
+<h1><%= @task.title %></h1>
+<div class="task">
+  <div class="completion">
+    <%= @task.completed ? '[ x ]' : '[ . ]'%>
+  </div>
+  <div class="task-data">
+    <p><%= @task.details %></p>
+  </div>
+</div>
+<%= link_to 'Back to list', tasks_path %>
+
+
+

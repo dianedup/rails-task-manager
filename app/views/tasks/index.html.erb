@@ -1,0 +1,12 @@
+<h1>My tasks</h1>
+<% @tasks.each do |task| %>
+  <div class="task">
+    <div class="completion">
+      <%= task.completed ? '[ x ]' : '[ . ]'%>
+    </div>
+    <div class="task-data">
+      <p><%= task.title %></p>
+      <%= link_to 'See details', task_path(task) %>
+    </div>
+  </div>
+<% end %>
